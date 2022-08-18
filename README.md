@@ -15,7 +15,6 @@ Only-RISC Instructions Computing System (ORICS). Hardware description and codea 
 | SUB    | 1100010 | Subtraction Im           | $3 <= $1 - $2                    | RRR    |
 | MUL    | 1100011 | Multiply                 | $3 <= $1 * $2                    | RRR    |
 | DIV    | 1100100 | Divide                   | $3 <= $1 / $2                    | RRR    |
-| ------ | ------- |------------------------- | -------------------------------- | ------ |
 
 ### Flow Control
 
@@ -28,7 +27,6 @@ Only-RISC Instructions Computing System (ORICS). Hardware description and codea 
 | JPNE   | 0010101 | Jump if Not Equal        | if $1 != $2, PC <= PC + offset  | RRO    |
 | JPA    | 0010110 | Jump if Above            | if $1 > $2, PC <= PC + offset   | RRO    |
 | JPNA   | 0010111 | Jump if Not Above        | if $1 =< $2, PC <= PC + offset  | RRO    |
-| ------ | ------- |------------------------- | ------------------------------- | ------ |
 
 ### Data and Memory
 
@@ -40,7 +38,6 @@ Only-RISC Instructions Computing System (ORICS). Hardware description and codea 
 | WRTIM  | 1010011 | Write Instruction Memory | IR[$2] <= $1                    | RR     |
 | STSM   | 1010100 | Store Secondary Memory   | sm[$2] <= $1                    | RR     |
 | LDSM   | 1010101 | Load Secondary Memory    | $1 <= sm[$2]                    | RR     |
-| ------ | ------- |------------------------- | ------------------------------- | ------ |
 
 ### Input/Output
 
@@ -50,7 +47,6 @@ Only-RISC Instructions Computing System (ORICS). Hardware description and codea 
 | OUT    | 1010111 | Store to Memory          | dom[$2] <= $1                   | RM     |
 | SETC   | 1011000 | Set Int. Counter Trigger | Sets interruption timer trigger | R      |
 | RSTC   | 1011001 | Reset Int. Counter       | Resets interruption timer       | RR     |
-| ------ | ------- |------------------------- | ------------------------------- | ------ |
 
 ### General Control
 
@@ -61,4 +57,3 @@ Only-RISC Instructions Computing System (ORICS). Hardware description and codea 
 | NOP    | 0000000 | Jump Register            | $1 <= $2                        | ZR     |
 | SVPC   | 1111110 | Save Program Counter     | $1 <= PC                        | R      |
 | LDPC   | 1111001 | Load Program Counter     | PC <= $1                        | R      |
-| ------ | ------- |------------------------- | ------------------------------- | ------ |
