@@ -1,0 +1,57 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "controlOutput[0]",
+					"strict" : false
+				},
+				{
+					"name" : "controlOutput[1]",
+					"strict" : false
+				},
+				{
+					"name" : "controlOutput[2]",
+					"strict" : false
+				},
+				{
+					"name" : "controlOutput[3]",
+					"strict" : false
+				},
+				{
+					"name" : "controlOutput[4]",
+					"strict" : false
+				},
+				{
+					"name" : "controlOutput[5]",
+					"strict" : false
+				},
+				{
+					"name" : "controlOutput[6]",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "dataInput[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dataInput[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dataInput[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dataInput[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

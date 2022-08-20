@@ -1,0 +1,21 @@
+|SevenSegmentsDisplayController
+dataInput[0] => Decoder0.IN3
+dataInput[1] => Decoder0.IN2
+dataInput[2] => Decoder0.IN1
+dataInput[3] => Decoder0.IN0
+controlOutput[0] <= controlOutput.DB_MAX_OUTPUT_PORT_TYPE
+controlOutput[1] <= controlOutput.DB_MAX_OUTPUT_PORT_TYPE
+controlOutput[2] <= controlOutput.DB_MAX_OUTPUT_PORT_TYPE
+controlOutput[3] <= controlOutput.DB_MAX_OUTPUT_PORT_TYPE
+controlOutput[4] <= controlOutput.DB_MAX_OUTPUT_PORT_TYPE
+controlOutput[5] <= controlOutput.DB_MAX_OUTPUT_PORT_TYPE
+controlOutput[6] <= controlOutput.DB_MAX_OUTPUT_PORT_TYPE
+reset => controlOutput.OUTPUTSELECT
+reset => controlOutput.OUTPUTSELECT
+reset => controlOutput.OUTPUTSELECT
+reset => controlOutput.OUTPUTSELECT
+reset => controlOutput.OUTPUTSELECT
+reset => controlOutput.OUTPUTSELECT
+reset => controlOutput.OUTPUTSELECT
+
+

@@ -1,6 +1,11 @@
 # Only-RISC Instructions Computing System - ORICS
 Only-RISC Instructions Computing System (ORICS). Hardware description and codea of the computing system created by me during Computer Engineering graduation.
 
+## Requirements
+This project was developed to run in a Altera Cyclone V SoC (5CSEMA5F31C6) in a Terasic DE1-SoC development board. All Verilog HDL files and schematic diagrams where compiled using Quartus Prime Lite Edition 21.1 available for [download in this link](https://www.intel.com/content/www/us/en/software-kit/736572/intel-quartus-prime-lite-edition-design-software-version-21-1-1-for-windows.html)
+
+Note: If you are using Windows 11 to run Quartus and use One Drive app rember to deactivate the automatic sync of Desktop folder files. This is the root cause of a know issue that makes Quartus crash when browsing files in explorer.
+
 ## Instruction Set Description
 
 ### Arithmetic
@@ -57,3 +62,7 @@ Only-RISC Instructions Computing System (ORICS). Hardware description and codea 
 | NOP    | 0000000 | Jump Register            | $1 <= $2                        | ZR     |
 | SVPC   | 1111110 | Save Program Counter     | $1 <= PC                        | R      |
 | LDPC   | 1111001 | Load Program Counter     | PC <= $1                        | R      |
+
+## CPU Modules
+
+### 
