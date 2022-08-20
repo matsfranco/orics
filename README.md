@@ -69,4 +69,4 @@ Note: If you are using Windows 11 to run Quartus and use One Drive app rember to
 Combinational circuit to controll led seven-segments display available in DE1-SoC board.
 It receives a 4-bit binary and shows hexadecimal digits: 0, 1,2,3,4,5,6,7,8,9,A,B,C,D,E,F.
 The reset input shows a "-" char.
-[For more details access the module readme file](/modules/SevenSegmentsDisplayController/readme.md)
+[For more details access the module readme file](/modules/SevenSegmentsDisplayController/README.md)
